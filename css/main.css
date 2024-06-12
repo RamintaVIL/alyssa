@@ -1,0 +1,19 @@
+<style>
+        body {
+            display: inline-block;
+            width: 100%;
+            margin: 0;
+        }
+        aside {
+            background-color: darkkhaki; 
+            width: 200px; 
+            float: left; 
+            height: 800px;
+        } 
+        main { 
+            background-color: chocolate;
+            width: calc(100% - 200px);
+            float: left; 
+            height: 800px;
+        }
+    </style>
