@@ -1,0 +1,40 @@
+aside {
+    padding: 30px;
+    padding-left: 0;
+    background-color: darkkhaki;
+}
+.brand {
+    margin-left: 10px;
+}
+.main-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 10px;
+    
+}
+.main-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+    background-color: rgb(247, 248, 253);
+    border-radius: 20px;
+}
+
+.main-link {
+    font-size: 25px ;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black; 
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+}
+.link {
+    font-size: 20px ;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+} 
