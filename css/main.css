@@ -3,7 +3,6 @@
 }
 
 body {
-    background-color: aqua;
     display: grid;
     grid-template-columns: 300px 1fr;
     margin: 0;
@@ -12,4 +11,11 @@ body {
 }
 main {
     background-color: white;
+}
+
+.main-intro {
+    background-color: rgb(228, 219, 255);
+    border-radius: 10px;
+    height: 150px;
+    margin: 40px;
 }

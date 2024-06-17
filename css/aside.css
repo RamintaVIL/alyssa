@@ -6,6 +6,12 @@ aside {
 .brand {
     margin-left: 10px;
 }
+.brand-io {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+}
 .main-nav {
     display: flex;
     flex-direction: column;
@@ -16,16 +22,16 @@ aside {
 .main-nav-list {
     display: flex;
     flex-direction: column;
-    gap: 40px; 
-    background-color: rgb(247, 248, 253);
-    border-radius: 20px;
+    gap: 40px;   
 }
 
 .main-link {
     font-size: 25px ;
     padding: 10px 20px;
-    text-decoration: none;
-    color: black; 
+    border-radius: 20px;
+    background-color: rgb(247, 248, 253);
+    text-align: left;
+    border: none;
 }
 
 .nav-list {
