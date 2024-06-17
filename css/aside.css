@@ -1,16 +1,10 @@
 aside {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     padding: 30px;
     padding-left: 0;
     background-color: darkkhaki;
-}
-.brand {
-    margin-left: 10px;
-}
-.brand-io {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    
 }
 .main-nav {
     display: flex;
@@ -19,12 +13,26 @@ aside {
     margin-left: 10px;
     
 }
+.brand {
+    margin-left: 10px;
+    width: 50px; 
+    height: auto;
+}
+.main-brand {
+    display: flex;
+    flex-direction: row;  
+}
+.brand-io {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 10px;   
+}
 .main-nav-list {
     display: flex;
     flex-direction: column;
     gap: 40px;   
 }
-
 .main-link {
     font-size: 25px ;
     padding: 10px 20px;
@@ -33,7 +41,6 @@ aside {
     text-align: left;
     border: none;
 }
-
 .nav-list {
     display: flex;
     flex-direction: column;
@@ -44,3 +51,8 @@ aside {
     text-decoration: none;
     color: black;
 } 
+.plus {
+    display: flex;
+    flex-direction: column;
+    color: rgb(111, 98, 174);
+}

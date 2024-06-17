@@ -4,24 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/aside.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <aside>
-      <div>
-        <img class="brand" src="./img/logo.png" alt="" />
+      <nav class="main-nav">
+        <img class="brand" src="./img/logo.png" alt="">
+        <div class="main-brand">
         <h2 class="brand-io">Pitch.io</h2>
       </div>
-      <nav class="main-nav">
-        <div class="main-nav-list">
-          <button class="main-link" type="button"> Create <br />New Pitch
-          </button>
+      <div class="main-nav-list">
+          <button class="main-link" type="button"> Create <br />New Pitch</button>
+          <i style="font-size: 40px;" class="fa fa-plus-circle plus"></i>
         </div>
         <div class="nav-list">
           <a class="link" href="#">Dashboard</a>
+          <i class="fa fa-pencil-square-o"></i>
           <a class="link" href="#">Editor</a>
+          <i class="fa fa-users" aria-hidden="true"></i>
           <a class="link" style="color: lightblue" href="#">Leads</a>
+          <i class="fa fa-cog"></i>
           <a class="link" href="#">Settings</a>
           <a class="link" href="#">Preview</a>
         </div>
@@ -30,7 +34,14 @@
 
     <main>
       <header>
-        <h2>Dashboard</h2>
+        <form>
+          <i class="fa fa-envelope-o"></i>
+          <i class="fa fa-bell-o"></i>
+          <span>AJ</span>
+          <span>Alyssa Jones</span>
+           <h2>Dashboard</h2>
+        </form>
+       
         
 
       </header>
