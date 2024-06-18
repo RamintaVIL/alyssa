@@ -10,8 +10,7 @@ aside {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-left: 10px;
-    
+    margin-left: 10px;    
 }
 .brand {
     margin-left: 10px;
@@ -26,12 +25,12 @@ aside {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-left: 10px;   
+    margin-left: 10px;      
 }
 .main-nav-list {
     display: flex;
     flex-direction: column;
-    gap: 40px;   
+    gap: 40px;      
 }
 .main-link {
     font-size: 25px ;
@@ -39,20 +38,19 @@ aside {
     border-radius: 20px;
     background-color: rgb(247, 248, 253);
     text-align: left;
-    border: none;
+    border: none;  
+}
+.plus {
+    margin-left: 50px;
+    color: rgb(111, 98, 174);   
 }
 .nav-list {
     display: flex;
     flex-direction: column;
 }
-.link {
+.link { 
     font-size: 20px ;
-    padding: 10px 40px;
+    padding: 20px 20px;
     text-decoration: none;
     color: black;
 } 
-.plus {
-    display: flex;
-    flex-direction: column;
-    color: rgb(111, 98, 174);
-}

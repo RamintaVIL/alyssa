@@ -1,0 +1,41 @@
+.main-header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;   
+}
+
+.icons-header {
+    display: flex;
+    justify-content: right;
+    gap: 30px;    
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;  
+}
+
+.initial {
+    font-size: 15px;
+    height: 25px;
+    width: 30px;
+    text-align: center;
+    background-color: rgb(228, 219, 255); 
+    border-radius: 5px;      
+}
+
+.name {
+    font-size: 18px;    
+}
+
+.mail {
+    font-size: 20px;
+    color: grey;   
+} 
+
+.notification {
+    font-size: 20px;
+    color: grey;
+}
+
