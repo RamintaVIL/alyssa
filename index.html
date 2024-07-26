@@ -9,35 +9,62 @@
   <link rel="stylesheet" href="./css/main.css" />
   <link rel="stylesheet" href="./css/aside.css" />
   <link rel="stylesheet" href="./css/header.css">
-  
+  <link rel="stylesheet" href="./css/progress.css">
+
 </head>
 
 <body>
   <aside>
     <nav class="main-nav">
-      <img class="brand" src="./img/logo.png" alt="">
       <div class="main-brand">
+        <img class="brand" src="./img/logo.png" alt="">
         <h2 class="brand-io">Pitch.io</h2>
       </div>
-      <div class="main-nav-list">
-        <button class="main-link" type="button"> Create <br>New Pitch
-          <i style="font-size: 40px;" class="fa fa-plus-circle plus"></i>
-        </button>
-        
-      </div>
+
+      <button class="main-link" type="button">
+        <span class="text-container">Create <br>New Pitch</span>
+        <i class="fa fa-plus-circle plus"></i>
+      </button>
+
       <div class="nav-list">
-        <a class="link" href="#">Dashboard</a>
-        <a class="link" href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Editor</a>
-        <a class="link" style="color: lightblue" href="#"><i class="fa fa-users" aria-hidden="true"></i>Leads</a>
-        <a class="link" href="#"><i class="fa fa-cog"></i>Settings</a>
-        <a class="link" href="#">Preview</a>
+        <a class="link" href="#">
+          <i class="fa fa-th" aria-hidden="true"></i>
+          <span class="text">Dashboard
+        </a>
+
+        <a class="link" href="#">
+          <i class="fa fa-pencil-square-o pencilA" aria-hidden="true"></i>
+          <span class="text">Editor</span>
+        </a>
+
+        <a class="link" style="color:#6f62ae" href="#">
+          <i class="fa fa-users" aria-hidden="true"></i>
+          <span class="text">Leads</span>
+        </a>
+
+        <a class="link" href="#">
+          <i class="fa fa-cog"> </i>
+          <span class="text">Settings</span>
+        </a>
+
+        <a class="link" href="#">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <span class="text">Preview</span>
+        </a>
+      </div>
+      <div class="upgradeContainer">
+        <div class="content">
+          <img clas="upgradeImg" src="./img/aside-computer.png" alt="">
+          <p class="upgradeText">Upgrade to PRO for more features.</p>
+          <a class="upgradeButton" href="#" class="yellow-submarine">Upgrade</a>
+        </div>
       </div>
     </nav>
   </aside>
 
-  <main>  
+  <main>
     <header class="main-header">
-      <form class="icons-header">  
+      <form class="icons-header">
         <i class="fa fa-envelope-o mail"></i>
         <i class="fa fa-bell-o notification"></i>
         <span class="initial">AJ</span>
@@ -45,12 +72,81 @@
       </form>
     </header>
 
-      <div></div>
-      <div class="main-intro">
-        <h1>Hi, Alyssa</h1>
+    <div class="main-intro">
+      <div class="mainParagraph">
+        <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+          Hi, Alyssa</h1>
         <p>Ready to start your day with some pitch decks?</p>
-        <img class="intro-photo" style="height: 250px; float: right" src="./img/pati-alyssa.png" alt=""/>
       </div>
-    </main>
-  </body>
+      <img class="intro-photo" src="./img/pati-alyssa.png" alt="" />
+    </div>
+
+    <div class="overview">
+      Overview
+    </div>
+
+    <section class="overviewInfo">
+      <div class="statistic-open">
+        <i class="fa fa-line-chart openRate" aria-hidden="true"></i>
+        <p class="statistic-procent">83% <br>Open Rate</p>
+      </div>
+
+      <div class="statisticComplete">
+        <i class="fa fa-check-circle-o completeA" aria-hidden="true"></i>
+        <p>77% <br>Complete</p>
+      </div>
+
+      <div class="statisticViews">
+        <i class="fa fa-star-o viewsA" aria-hidden="true"></i>
+        <p>91 <br>Unique Views</p>
+      </div>
+
+      <div class="statisticTotal">
+        <i class="fa fa-eye totalA" aria-hidden="true"></i>
+        <p>126 <br>Total views</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="fashionContainer">
+        <img class="girl" src="./img/mergaite.png" alt="">
+        <div class="fashionInfo">
+          <h3 style="color: blue; font-size: 1rem;">Next fasion</h3>
+          <p style="color: gray; font-size: 13px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate facere beatae <br> enim expedita,
+            sapiente corrupti deleniti.</p>
+          <p style="font-size: 0.8rem;">10 slides</p>
+        </div>
+        <div>
+          <div class="progressBar">
+            <div class="progressBarText">Public</div>
+            <div class="progressBarBackGround">
+              <div class="progressBarFill" style="width: 20%"></div>
+            </div>
+          </div>
+          <i class="fa fa-pencil" aria-hidden="true"></i>
+          <i class="fa fa-trash-o" aria-hidden="true"></i>
+        </div>
+    </section <section>
+    <div class="fashionContainer">
+      <img class="girl" src="./img/berniukas.png" alt="">
+      <div class="fashionInfo">
+        <h3 style="color: blue; font-size: 1rem;">Digital Marketing today</h3>
+        <p style="color: gray; font-size: 13px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate facere beatae <br> enim expedita,
+          sapiente corrupti deleniti.</p>
+        <p style="font-size: 0.8rem;">10 slides</p>
+      </div>
+      <div>
+        <div class="progressBar">
+          <div class="progressBarText">Private</div>
+          <div class="progressBarBackGround">
+            <div class="progressBarFill" style="width: 20%; background-color: #bbbfde;"></div>
+          </div>
+        </div>
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+        <i class="fa fa-trash-o" aria-hidden="true"></i>
+      </div>
+      </section>
+  </main>
+</body>
+
 </html>

@@ -1,0 +1,15 @@
+.progressBarBackGround {
+    width: 200%;
+    background-color: white;
+    border-radius: 100px;
+    border: 1px solid #f3f3f3;
+    padding: 10px 5px;
+    margin-left: 30px;
+}
+.progressBarFill {
+    height: 8px;
+    background-color: #4f3e9c;
+    border-radius: 200px 200px;
+    transition: width 0.3s;
+    padding: 8px 3px;
+}

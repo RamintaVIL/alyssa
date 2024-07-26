@@ -1,56 +1,101 @@
 aside {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 30px;
-    padding-left: 0;
-    background-color: darkkhaki;
+    gap: 20px;
+    padding: 20px 0;
 }
 .main-nav {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-left: 10px;    
-}
-.brand {
-    margin-left: 10px;
-    width: 50px; 
-    height: auto;
+    margin-left: 35px;
 }
 .main-brand {
     display: flex;
-    flex-direction: row;  
+    margin-left: 10px;
+    font-size: 14px;
 }
-.brand-io {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-left: 10px;      
+.brand {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
 }
-.main-nav-list {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;      
+.link {
+    color: #2f2f2f;
 }
 .main-link {
-    font-size: 25px ;
-    padding: 10px 20px;
-    border-radius: 20px;
     background-color: rgb(247, 248, 253);
-    text-align: left;
-    border: none;  
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.main-link:hover {
+    background-color: gray;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 0.31rem white;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
 }
 .plus {
-    margin-left: 50px;
-    color: rgb(111, 98, 174);   
+    color: rgb(111, 98, 174);
+    margin-left: 20px;
+    font-size: 24px;
 }
 .nav-list {
     display: flex;
     flex-direction: column;
+    gap: 40px;
 }
-.link { 
-    font-size: 20px ;
-    padding: 20px 20px;
+.link {
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    color: black;
-} 
+}
+.text {
+    margin-left: 15px;
+}
+.upgradeContainer {
+    gap: 30px;
+}
+
+.upgradeContainer .content {
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7fc;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+.upgradeText {
+    font-size: 1em;
+    color: #c8cbe4;
+}
+.upgradeButton {
+    display: inline-block;
+    padding: 0.5em 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: #6f62ae;
+    color: #fff;
+    border: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+    user-select: none;
+}
+.upgradeButton:hover {
+    background-color: gray;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 0.31rem white;
+}
